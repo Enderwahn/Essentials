@@ -4,6 +4,7 @@ dependencyResolutionManagement {
         maven("https://papermc.io/repo/repository/maven-public/")
         maven("https://jitpack.io") {
             content { includeGroup("com.github.milkbowl") }
+            content { includeGroup("com.github.MinnDevelopment") }
         }
         maven("https://repo.codemc.org/repository/maven-public") {
             content { includeGroup("org.bstats") }
